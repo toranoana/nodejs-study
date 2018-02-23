@@ -2,7 +2,7 @@
 アニメサイト解析ツールをプロミス化します。
 
 ## 事前準備
-'npm install cheerio-httpcli'
+`npm install cheerio-httpcli`
 
 ## ソースコード
 * getAnimeDataExPromise.js

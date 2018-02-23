@@ -94,4 +94,4 @@ Server runnning at http://127.0.0.1:3000/
 ![exercises1](./img/exercises1.png)
 
 ## プロセスの終了
-* 'ctlr + z'
+`ctlr + z`

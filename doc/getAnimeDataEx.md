@@ -2,7 +2,7 @@
 アニメ情報取得APIを使用し取得したアニメサイトを解析し、指定したタグの値を取得する。
 
 ## 事前準備
-'npm install cheerio-httpcli'
+`npm install cheerio-httpcli`
 
 ## ソースコード
 * getAnimeDataEx.js
