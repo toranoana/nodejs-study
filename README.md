@@ -1,13 +1,13 @@
 # オタク×Node.js勉強会
 
 * [アニメ情報取得ツール](./doc/getAnimeData.md)
-* [アニメサイト解析ツール](.doc/getAnimeDataEx.md)
-* [Promiseの使い方](.doc/promise.md)
+* [アニメサイト解析ツール](./doc/getAnimeDataEx.md)
+* [Promiseの使い方](./doc/promise.md)
 * [アニメサイト解析Promise化](./doc/getAnimeDataExPromise.md)
-* [Promise.allの使い方](.doc/promiseall.md)
+* [Promise.allの使い方](./doc/promiseall.md)
 
 ## 虫食いテキスト
-* [EJSを使用したwebページの作成](./doc/templateEjs.md)
+* [EJSを使用したwebページの作成](./doc/learn-ejs.md)
 
 ## カスタマイズ
 本日の内容を組み合わせてカスタマイズしたアニメ情報サイトを作成してみましょう。
