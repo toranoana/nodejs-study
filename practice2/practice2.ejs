@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <title>ejs_sample</title>
+    <style type="text/css">
+      .div_block { width: 300px; display: inline-block; vertical-align: top;
+                   margin: 5px; border: 1px solid #555; }
+      .div_header { background-color: #CCC; padding: 10px;
+                    height: 26px; font-size: 12px;}
+      img { object-fit: cover; width: 300px; height: 160px; display:block;}
+      .nodata { width: 300px; height: 160px; background-color: #EEE;}
+      p { padding: 5px; font-size: 10px; display: block; height: 60px;}
+    </style>
+  </head>
+  <body>
+
+    <%# ヘッダー %>
+    <h1>今期のアニメ</h1>
+    <%# アニメ数分ループ %>
+    <% for (anime of animes) { %>
+      <div class="div_block">
+        <div class="div_header">
+          <a href="<%= anime.public_url %>"><%= anime.title %></a>
+        </div>
+        <% if (!!anime.ogp.og_image) { %>
+          <img src="<%= anime.ogp.og_image %>" />
+        <% } else { %>
+          <div class="nodata">no data</div>
+        <% } %>  
+        <p>
+          <% if (!!anime.ogp.og_description) { %>
+            <%= anime.ogp.og_description %>
+          <% } else { %>
+            no data
+          <% } %>
+        </p>
+      </div>
+    <% } %>
+  </body>
+</html>

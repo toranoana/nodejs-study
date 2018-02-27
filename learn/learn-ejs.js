@@ -8,11 +8,7 @@ var server = http.createServer();
 
 server.on('request', function(req, res) {
 
-    /** ここを埋めてください。 */
-
-    res.writeHead(200, {'Content-Type': 'text/html; charset=UTF-8'});
-    res.write(page);
-    res.end();
+    /** ここに追加 */
 });
 
 server.listen(port, hostname, function() {
